@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import myImage from "./IMG_4740.JPG";
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import FilmPhotography from './FilmPhotography';
+
 
 
 function App() {
@@ -94,7 +93,7 @@ function App() {
   const [selectedProject, setSelectedProject] = useState(null);
 
   return (
-    <Router>
+    
      
       <div className="App">
         {/* Full-Screen Intro Section */}
@@ -127,6 +126,7 @@ function App() {
             <p>Hi! I'm Apurva—just Apurva, no last name (and no, it’s not a system error 😆). I'm a Software Engineering student at The University of Sydney. I’m a passionate developer with a love for bringing ideas to life through code. Whether it’s building sleek web experiences, solving complex problems, or experimenting with creative design, I thrive on turning concepts into reality.</p>
             <p> When I’m not coding, you’ll probably find me capturing moments through my film camera, planning the next fun get-together, or diving into a good book before bed. I also love exploring watercolor painting (still a work in progress!) and occasionally baking cookies just for the cozy vibes.
               I’m always excited to learn, collaborate, and create. Let’s make something amazing together!</p>
+
           </div>
         </div>
       </section>
@@ -223,12 +223,10 @@ function App() {
         <footer>
           <p>© 2025 Apurva</p>
         </footer>
-        <Routes>
-          
-          <Route path="/film-photography" component={FilmPhotography} />  {/* Define the route for FilmPhotography */}
-        </Routes>
+       
+
       </div>
-      </Router>
+      
   );
 }
 
