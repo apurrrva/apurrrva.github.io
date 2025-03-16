@@ -309,9 +309,14 @@ section.visible {
 }
 
 .projects-section h2 {
-  font-size: 2.5rem;
-  color: #ffcc70; /* Warm highlight color for the heading */
-  margin-bottom: 30px;
+  font-size: 2.5rem; /* Bigger for impact */
+  font-family: Arial, sans-serif;
+  font-weight: 900; /* Extra bold for emphasis */
+  color: var(--warm-purple); 
+  text-transform: uppercase; /* Stylish uppercase */
+  letter-spacing: 2px; /* Adds elegance */
+  margin-bottom: 40px; /* More space below */
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); /* Subtle glow */
 }
 
 .projects-grid {
@@ -323,7 +328,7 @@ section.visible {
 }
 
 .project-card {
-  background: #252545; /* Slightly lighter dark shade for contrast */
+  background: var(--warm-purple); 
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
@@ -344,7 +349,7 @@ section.visible {
 
 .project-card p {
   font-size: 1rem;
-  color: #b0b0b0;
+  color: #ffffff;
 }
 
 .project-modal {

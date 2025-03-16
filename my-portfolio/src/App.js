@@ -75,6 +75,20 @@ function App() {
       details: "Developed a Python-based machine learning model for water quality classification.",
       tech: ["Python", "Machine Learning"],
     },
+    {
+      title: "Cardify – Flashcard Website",
+      category: "Web Development",
+      description: "Flashcard management website built using Django and JavaScript.",
+      details: "Developed backend functionalities for the public flashcard library, implementing views and URL configurations in Django. Enhanced admin capabilities for managing user-generated flashcards and website settings.",
+      tech: ["Django", "JavaScript"],
+    },
+    {
+      title: "Portfolio Website",
+      category: "Personal Project",
+      description: "Designed and developed a personal portfolio website to showcase software engineering skills, projects, and hobbies.",
+      details: "Integrated interactive sections, including About Me, Projects, Skills, and Contact. Utilized React, CSS animations, and responsive design techniques for a seamless user experience. Implemented a Film Photography page to display the user's photography work and added a custom design to showcase their creative side. Deployed the website using GitHub Pages for easy access and sharing.",
+      tech: ["React", "CSS", "GitHub Pages"],
+    },
   ];
 
   const [selectedProject, setSelectedProject] = useState(null);
