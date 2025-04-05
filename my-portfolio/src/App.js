@@ -126,7 +126,7 @@ function App() {
       category: "Personal Project",
       type: "🔵 Individual",
       description: "Designed and developed a personal portfolio website.",
-      details: "Built using React and CSS, featuring a Film Photography page and interactive UI elements.",
+      details: "Built using React and CSS, featuring interactive UI elements.",
       tech: ["React", "CSS", "GitHub Pages"],
     },
   ];
@@ -208,7 +208,7 @@ function App() {
           <img src={myImage} alt="Apurva" className="about-image" />
           <div className="about-text">
             <h2>About Me</h2>
-            <p>Hi! I'm Apurva—just Apurva, no last name (and nope, it’s not a system error 😄). I'm a Software Engineering student at The University of Sydney. I’m a Software Engineering student at The University of Sydney, and I’m deeply passionate about crafting intuitive, innovative, and scalable solutions. Whether it’s building sleek web applications, solving challenging problems, or experimenting with creative design, I’m always focused on turning ideas into impactful realities.</p>
+            <p>Hi! I'm Apurva—just Apurva, no last name (and nope, it’s not a system error 😄). I’m a Software Engineering student at The University of Sydney, and I’m deeply passionate about crafting intuitive, innovative, and scalable solutions. Whether it’s building sleek web applications, solving challenging problems, or experimenting with creative design, I’m always focused on turning ideas into impactful realities.</p>
             <p> When I’m not coding, I’m likely capturing moments through my film camera, planning the next fun get-together with friends, or unwinding with a good book. I’m also exploring the world of watercolor painting (a work in progress!) and baking cookies to fill the house with cozy vibes. I thrive in environments where learning, collaboration, and creativity meet, and I’m always eager to contribute and grow. Let’s connect and create something incredible together! 🚀</p>
 
           </div>
